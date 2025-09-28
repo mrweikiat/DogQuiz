@@ -11,6 +11,7 @@ Some afterword:
    - Move the NavHost and all its composable routes into a dedicated, reusable Composable function, rather than keeping it inside MainActivity.
    - If we have reusable compose components we can move it out into mod-ui and reuse from there
    - Offline first state, caching the data locally for user to use first to avoid delays or unhappy (eg:network) scenarios. With some mechanisms to sync/merge local and remote changes
+   - For future features, we can introduce use case layer, reducing code written on view models
 
 Thanks for the challenge, it was a good break! :)
 
